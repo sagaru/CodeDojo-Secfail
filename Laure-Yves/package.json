@@ -1,0 +1,14 @@
+{
+  "name": "code-dojo-secfail",
+  "version": "1.0.0",
+  "description": "Dashlane Code Dojo",
+  "scripts": {
+    "bruteforce": "time node src/01_bruteforce.js",
+    "decrypt": "node src/02_decrypt.js"
+  },
+  "dependencies": {
+    "async": "^2.0.0-rc.5",
+    "lodash": "^4.13.1",
+    "node-fetch": "^1.5.3"
+  }
+}
